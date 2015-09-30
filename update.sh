@@ -1,5 +1,5 @@
 apt-get update
-apt-get upgrade
-apt-get dist-upgrade
-apt-get autoremove
-apt-get autoclean
+apt-get -y upgrade
+apt-get -y dist-upgrade
+apt-get -y autoremove
+apt-get -y autoclean
