@@ -1,0 +1,7 @@
+#! /bin/bash
+# Author: Rudolph Ponce
+
+/etc/init.d/postgresql start
+msfdb init
+
+#EOF
