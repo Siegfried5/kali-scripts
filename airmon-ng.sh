@@ -8,6 +8,7 @@ airmon-ng check kill
 airmon-ng start wlan0
 airodump-ng wlan0mon -w raw_dump
 "
+sleep 10
 
 service network-manager stop
 airmon-ng check kill
